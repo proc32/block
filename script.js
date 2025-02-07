@@ -416,7 +416,7 @@ class Board {
         top: x * $(ele).innerHeight() + "px"
       });
     });
-    $("#message").text("Tetris");
+    $("#message").text("Blocks by Omer");
     window.animatelo.flash("#new-game", {
       duration: 2500,
       iterations: Infinity
